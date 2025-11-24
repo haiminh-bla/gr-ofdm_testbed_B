@@ -18,6 +18,9 @@ try:
     from .ofdm_testbed_python import *
 except ModuleNotFoundError:
     pass
+    
+    # Expose the SWIG-wrapped C++ block
+from .ber_swig import ber
 
 # import any pure python here
 #

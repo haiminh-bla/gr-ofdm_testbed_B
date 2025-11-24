@@ -39,3 +39,13 @@ add_custom_target(
   COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_SOURCE_DIR}
           ${CMAKE_BINARY_DIR}/test_modules/gnuradio/ofdm_testbed/
 )
+
+find_package(Gnuradio REQUIRED CONFIG)
+include(${GNURADIO_CMAKE_DIR}/GrCMake.cmake)
+
+# SWIG wrapper
+GR_SWIG_MAKE(ber_swig
+    SOURCES ber_swig.i
+    DEPENDS gnuradio-ofdm_testbed
+)
+
