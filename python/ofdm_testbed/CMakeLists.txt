@@ -34,9 +34,5 @@ GR_PYTHON_INSTALL(
 find_package(Gnuradio REQUIRED CONFIG)
 include(${GNURADIO_CMAKE_DIR}/GrCMake.cmake)
 
-# SWIG wrapper
-GR_SWIG_MAKE(ber_swig
-    SOURCES ber_swig.i
-    DEPENDS gnuradio-ofdm_testbed
-)
+
 
