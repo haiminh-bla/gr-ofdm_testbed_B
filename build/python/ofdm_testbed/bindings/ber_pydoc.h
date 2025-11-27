@@ -16,12 +16,32 @@
 
 
  
- static const char *__doc_gr_ofdm_testbed_ber = R"doc()doc";
+ static const char *__doc_gr_ofdm_testbed_ber = R"doc(<+description of block+>
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of ofdm_testbed::ber.
+
+To avoid accidental use of raw pointers, ofdm_testbed::ber's constructor is in a private implementation class. ofdm_testbed::ber::make is the public interface for creating new instances.
+
+Args:
+    avg_len : Number of bits to calculate average BER (default: 1000000)
+    enable_output : Enable output stream (default: false))doc";
 
 
  static const char *__doc_gr_ofdm_testbed_ber_ber = R"doc()doc";
 
 
- static const char *__doc_gr_ofdm_testbed_ber_make = R"doc()doc";
+ static const char *__doc_gr_ofdm_testbed_ber_make = R"doc(<+description of block+>
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of ofdm_testbed::ber.
+
+To avoid accidental use of raw pointers, ofdm_testbed::ber's constructor is in a private implementation class. ofdm_testbed::ber::make is the public interface for creating new instances.
+
+Args:
+    avg_len : Number of bits to calculate average BER (default: 1000000)
+    enable_output : Enable output stream (default: false))doc";
 
   

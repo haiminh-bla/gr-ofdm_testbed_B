@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  ".1.0.0"
   "CMakeFiles/gnuradio-ofdm_testbed.dir/ber_impl.cc.o"
   "CMakeFiles/gnuradio-ofdm_testbed.dir/ber_impl.cc.o.d"
   "libgnuradio-ofdm_testbed.pdb"

@@ -1,4 +1,4 @@
-# Install script for directory: /home/haison98/GNURadio/gr-ofdm_testbed
+# Install script for directory: /home/thuctap2/gr-ofdm_testbed
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,18 +42,18 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gnuradio-ofdm_testbed" TYPE FILE FILES "/home/haison98/GNURadio/gr-ofdm_testbed/cmake/Modules/gnuradio-ofdm_testbedConfig.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gnuradio-ofdm_testbed" TYPE FILE FILES "/home/thuctap2/gr-ofdm_testbed/cmake/Modules/gnuradio-ofdm_testbedConfig.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/haison98/GNURadio/gr-ofdm_testbed/build/include/gnuradio/ofdm_testbed/cmake_install.cmake")
-  include("/home/haison98/GNURadio/gr-ofdm_testbed/build/lib/cmake_install.cmake")
-  include("/home/haison98/GNURadio/gr-ofdm_testbed/build/apps/cmake_install.cmake")
-  include("/home/haison98/GNURadio/gr-ofdm_testbed/build/docs/cmake_install.cmake")
-  include("/home/haison98/GNURadio/gr-ofdm_testbed/build/python/ofdm_testbed/cmake_install.cmake")
-  include("/home/haison98/GNURadio/gr-ofdm_testbed/build/grc/cmake_install.cmake")
+  include("/home/thuctap2/gr-ofdm_testbed/build/include/gnuradio/ofdm_testbed/cmake_install.cmake")
+  include("/home/thuctap2/gr-ofdm_testbed/build/lib/cmake_install.cmake")
+  include("/home/thuctap2/gr-ofdm_testbed/build/apps/cmake_install.cmake")
+  include("/home/thuctap2/gr-ofdm_testbed/build/docs/cmake_install.cmake")
+  include("/home/thuctap2/gr-ofdm_testbed/build/python/ofdm_testbed/cmake_install.cmake")
+  include("/home/thuctap2/gr-ofdm_testbed/build/grc/cmake_install.cmake")
 
 endif()
 
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/haison98/GNURadio/gr-ofdm_testbed/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/thuctap2/gr-ofdm_testbed/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

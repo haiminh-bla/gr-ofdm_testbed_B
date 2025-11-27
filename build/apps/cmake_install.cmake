@@ -1,4 +1,4 @@
-# Install script for directory: /home/haison98/GNURadio/gr-ofdm_testbed/apps
+# Install script for directory: /home/thuctap2/gr-ofdm_testbed/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

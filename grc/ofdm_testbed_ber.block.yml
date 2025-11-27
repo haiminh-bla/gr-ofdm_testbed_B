@@ -21,6 +21,8 @@ parameters:
   label: Enable Output
   dtype: bool
   default: false
+recreates:
+  - enable_output
 
 #  Make one 'inputs' list entry per input and one 'outputs' list entry per output.
 #  Keys include:

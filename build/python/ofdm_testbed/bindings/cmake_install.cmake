@@ -1,4 +1,4 @@
-# Install script for directory: /home/haison98/GNURadio/gr-ofdm_testbed/python/ofdm_testbed/bindings
+# Install script for directory: /home/thuctap2/gr-ofdm_testbed/python/ofdm_testbed/bindings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,23 +42,27 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpythonapix" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-310-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-310-x86_64-linux-gnu.so")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "pythonapi" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-312-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-312-x86_64-linux-gnu.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-310-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-312-x86_64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/ofdm_testbed" TYPE MODULE FILES "/home/haison98/GNURadio/gr-ofdm_testbed/build/python/ofdm_testbed/bindings/ofdm_testbed_python.cpython-310-x86_64-linux-gnu.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-310-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-310-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/dist-packages/gnuradio/ofdm_testbed" TYPE MODULE FILES "/home/thuctap2/gr-ofdm_testbed/build/python/ofdm_testbed/bindings/ofdm_testbed_python.cpython-312-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-312-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-312-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/haison98/GNURadio/gr-ofdm_testbed/build/lib:"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-312-x86_64-linux-gnu.so"
+         OLD_RPATH "/home/thuctap2/gr-ofdm_testbed/build/lib:/usr/local/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-310-x86_64-linux-gnu.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/dist-packages/gnuradio/ofdm_testbed/ofdm_testbed_python.cpython-312-x86_64-linux-gnu.so")
     endif()
   endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "pythonapi" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/thuctap2/gr-ofdm_testbed/build/python/ofdm_testbed/bindings/CMakeFiles/ofdm_testbed_python.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
 endif()
 

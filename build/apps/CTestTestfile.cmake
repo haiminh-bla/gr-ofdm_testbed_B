@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/haison98/GNURadio/gr-ofdm_testbed/apps
-# Build directory: /home/haison98/GNURadio/gr-ofdm_testbed/build/apps
+# Source directory: /home/thuctap2/gr-ofdm_testbed/apps
+# Build directory: /home/thuctap2/gr-ofdm_testbed/build/apps
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

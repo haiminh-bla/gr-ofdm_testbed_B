@@ -5,7 +5,12 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
+# Manually define GRC block install directory (GNU Radio 3.10+)
+set(GRC_BLOCKS_DIR ${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks)
 
-install(FILES
-    ofdm_testbed_ber.block.yml DESTINATION share/gnuradio/grc/blocks
+install(
+    FILES
+        ofdm_testbed_ber.block.yml
+    DESTINATION ${GRC_BLOCKS_DIR}
 )
+

@@ -18,6 +18,6 @@ try:
     from .ofdm_testbed_python import *
 except ModuleNotFoundError:
     pass
+    
+from .ber_python import ber
 
-# import any pure python here
-#

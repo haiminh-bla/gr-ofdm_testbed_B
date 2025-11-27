@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_b6631a3ba2300bbfcf5792eee5f565b9" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="ber__pydoc__template_8h">ber_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/thuctap2/gr-ofdm_testbed/python/ofdm_testbed/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>

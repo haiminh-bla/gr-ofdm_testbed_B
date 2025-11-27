@@ -1,4 +1,4 @@
-# Install script for directory: /home/haison98/GNURadio/gr-ofdm_testbed/python/ofdm_testbed
+# Install script for directory: /home/thuctap2/gr-ofdm_testbed/python/ofdm_testbed
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,20 +42,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/ofdm_testbed" TYPE FILE FILES "/home/haison98/GNURadio/gr-ofdm_testbed/python/ofdm_testbed/__init__.py")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/ofdm_testbed" TYPE FILE FILES
-    "/home/haison98/GNURadio/gr-ofdm_testbed/build/python/ofdm_testbed/__init__.pyc"
-    "/home/haison98/GNURadio/gr-ofdm_testbed/build/python/ofdm_testbed/__init__.pyo"
-    )
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/dist-packages/gnuradio/ofdm_testbed" TYPE FILE FILES "/home/thuctap2/gr-ofdm_testbed/python/ofdm_testbed/__init__.py")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/haison98/GNURadio/gr-ofdm_testbed/build/python/ofdm_testbed/bindings/cmake_install.cmake")
+  include("/home/thuctap2/gr-ofdm_testbed/build/python/ofdm_testbed/bindings/cmake_install.cmake")
 
 endif()
 

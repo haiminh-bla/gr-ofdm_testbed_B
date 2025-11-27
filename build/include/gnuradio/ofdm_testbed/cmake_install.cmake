@@ -1,4 +1,4 @@
-# Install script for directory: /home/haison98/GNURadio/gr-ofdm_testbed/include/gnuradio/ofdm_testbed
+# Install script for directory: /home/thuctap2/gr-ofdm_testbed/include/gnuradio/ofdm_testbed
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,10 +42,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gnuradio/ofdm_testbed" TYPE FILE FILES
-    "/home/haison98/GNURadio/gr-ofdm_testbed/include/gnuradio/ofdm_testbed/api.h"
-    "/home/haison98/GNURadio/gr-ofdm_testbed/include/gnuradio/ofdm_testbed/ber.h"
+    "/home/thuctap2/gr-ofdm_testbed/include/gnuradio/ofdm_testbed/api.h"
+    "/home/thuctap2/gr-ofdm_testbed/include/gnuradio/ofdm_testbed/ber.h"
     )
 endif()
 
