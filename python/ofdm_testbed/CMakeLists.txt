@@ -31,8 +31,7 @@ GR_PYTHON_INSTALL(
     DESTINATION ${GR_PYTHON_DIR}/gnuradio/ofdm_testbed
 )
 
-find_package(Gnuradio REQUIRED CONFIG)
-include(${GNURADIO_CMAKE_DIR}/GrCMake.cmake)
+
 
 
 
