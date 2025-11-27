@@ -19,5 +19,10 @@ try:
 except ModuleNotFoundError:
     pass
     
+<<<<<<< HEAD
 from .ber_python import ber
+=======
+    # Expose the SWIG-wrapped C++ block
+from .ber_swig import ber
+>>>>>>> origin/master
 
